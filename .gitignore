@@ -1,0 +1,12 @@
+# Local word embeddings
+glove_vectors.txt
+
+# Python and Jupyter artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
