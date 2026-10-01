@@ -28,26 +28,27 @@ Open `spamclassification.ipynb` in Jupyter Notebook or VS Code and run the cells
 
 The project follows this NLP pipeline:
 
+```text
 SMS Messages
-    ↓
+     ↓
 Tokenization
-    ↓
+     ↓
 Vocabulary Building
-    ↓
+     ↓
 Word-to-ID Conversion
-    ↓
+     ↓
 Pretrained GloVe Embeddings
-    ↓
+     ↓
 Embedding Matrix
-    ↓
+     ↓
 PyTorch Dataset & DataLoader
-    ↓
+     ↓
 Padding Variable-Length SMS
-    ↓
+     ↓
 RNN / GRU / LSTM
-    ↓
+     ↓
 Linear Classification Layer
-    ↓
+     ↓
 Spam / Not Spam
 
 ## Data Files
